@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Proxy"
+  short_description: "从海外服务器搭建节点并导入电脑，自动配置分流、虚拟网卡、域名解析、断网防护与恢复"
+  default_prompt: "使用 $claude-proxy 技能识别本机客户端；若只有海外服务器，先准备搭建和导入节点，再配置分流、虚拟网卡、域名解析、防护与恢复。先体检和备份，密码由我在本机输入，管理员命令由我运行，读取日志后逐项验收。"
