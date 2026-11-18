@@ -1,0 +1,44 @@
+# Local development caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials and SSH material
+.env
+.env.*
+.ssh/
+id_rsa*
+id_ed25519*
+known_hosts*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Prepared deployments, backups, runtime profiles and diagnostics
+/work/
+/outputs/
+/clash-guard-backup/
+/profiles/
+/ruleset/
+node.json
+plan.json
+ssh.json
+local.json
+options.json
+settings.json
+diagnostics.json
+inspection.json
+server-status.json
+failure.json
+*evidence*.json
+*.report.json
+*.jsonl
+*.log
+*.sock
+*.pid
+*.db
+断网急救.txt
